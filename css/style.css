@@ -101,7 +101,7 @@
     display: none;
 }
 .jimu-widget-edraw .draw-table{
-	display: inline-block;
+	display: revert;
 }
 .jimu-widget-edraw .draw-table td, .jimu-widget-edraw .draw-table th{
 	padding:5px;
