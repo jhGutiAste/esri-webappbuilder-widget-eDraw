@@ -22,8 +22,8 @@
     padding-bottom: 10px;
 }
 .jimu-widget-edraw .area-units-tip {
-    height: 30px;
-    line-height: 30px;
+    height: 25px;
+    line-height: 25px;
     padding-left: 17px;
 }
 .jimu-rtl .jimu-widget-edraw .area-units-tip {
@@ -31,8 +31,8 @@
     padding-right: 17px;
 }
 .jimu-widget-edraw .distance-units-tip {
-    height: 30px;
-    line-height: 30px;
+    height: 25px;
+    line-height: 25px;
     padding-left: 17px;
 }
 .jimu-rtl .jimu-widget-edraw .distance-units-tip {
@@ -123,7 +123,7 @@
     text-align: center;
 }
 .jimu-widget-edraw .draw-table .td-checkbox {
-    width:30px;
+    width:25px;
 }
 .jimu-widget-edraw .draw-table .selected td {
     background-color: rgba(15, 108, 159, 0.2);
@@ -146,12 +146,12 @@
     float: left;
     font-size: 1.5em;
     font-weight: bold;
-    height: 30px;
+    height: 25px;
     margin: 4px 0px 4px 11px;
-    min-height: 30px;
+    min-height: 25px;
     text-align: center;
     vertical-align: middle;
-    width: 30px;
+    width: 25px;
 }
 .jimu-widget-edraw .list-draw-actions span.text {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -253,11 +253,11 @@
 	float: right;
 	font-size: 1.5em;
 	font-weight: bold;
-	height: 30px;
-	min-height: 30px;
+	height: 25px;
+	min-height: 25px;
 	text-align: center;
 	vertical-align: middle;
-	width: 30px;
+	width: 25px;
 	background-image: url("images/upload.png");
 	margin-top: 4px;
 }
@@ -339,7 +339,7 @@
 }
 .jimu-widget-edraw .draw-plus.font-name {
     width: 145px;
-    height: 30px;
+    height: 25px;
     float: left;
 }
 .jimu-widget-edraw .draw-plus.text-angle {
@@ -347,13 +347,13 @@
 }
 .jimu-widget-edraw .draw-plus.text-angle-sample {
     position: absolute;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-top: 7px;
 }
 .jimu-widget-edraw .draw-plus.text-options {
     float: left;
     padding: 4px;
-    height: 30px;
+    height: 25px;
 }
 .jimu-widget-edraw .draw-plus.text-option {
     width: 22px;
@@ -419,7 +419,7 @@
 }
 .jimu-widget-edraw .draw-plus.text-place .text-place-top-center {
     top: 55px;
-    left: 30px;
+    left: 25px;
     text-align: center;
     vertical-align: top;
 }
@@ -430,19 +430,19 @@
     vertical-align: top;
 }
 .jimu-widget-edraw .draw-plus.text-place .text-place-middle-left {
-    top: 30px;
+    top: 25px;
     left: 55px;
     text-align: left;
     line-height: 100%;
 }
 .jimu-widget-edraw .draw-plus.text-place .text-place-middle-center {
-    top: 30px;
-    left: 30px;
+    top: 25px;
+    left: 25px;
     text-align: center;
     line-height: 100%;
 }
 .jimu-widget-edraw .draw-plus.text-place .text-place-middle-right {
-    top: 30px;
+    top: 25px;
     left: 5px;
     text-align: right;
     line-height: 100%;
@@ -455,7 +455,7 @@
 }
 .jimu-widget-edraw .draw-plus.text-place .text-place-bottom-center {
     top: 5px;
-    left: 30px;
+    left: 25px;
     text-align: center;
     padding-top: 10px;
 }
