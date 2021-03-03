@@ -803,6 +803,13 @@ function(
                         );
                     this._UTIL__enableClass(this._editorTextPlusPlacements[i], 'selected', selected);
                 }
+                //update preview - se inicializa el pre vista del texto:
+                this.editorSymbolChooser.textPreview.innerHTML = symbol.text;
+                this.editorSymbolChooser.textPreview.style.fontSize = symbol.font.size;
+                this.editorSymbolChooser.textPreview.style.fontFamily = symbol.font.family;
+                this.editorSymbolChooser.textPreview.style['font-style'] = (this._editorConfig["drawPlus"]["italic"]) ? 'italic' : 'normal';
+                this.editorSymbolChooser.textPreview.style['font-weight'] = (this._editorConfig["drawPlus"]["bold"]) ? 'bold' : 'normal';
+                this.editorSymbolChooser.textPreview.style['text-decoration'] = (this._editorConfig["drawPlus"]["underline"]) ? 'underline' : 'none';
             } else {
                 //Hide draw plus
                 this.editorSymbolTextPlusNode.style.display = 'none';
