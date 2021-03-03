@@ -289,7 +289,7 @@
 }
 .jimu-widget-edraw .content {
     background-color: rgba(78, 130, 138, 0.1);
-    height: calc(100% - 100px);
+    height: calc(100% - 120px);
     overflow-x: hidden;
     overflow-y: auto;
     position: absolute;
