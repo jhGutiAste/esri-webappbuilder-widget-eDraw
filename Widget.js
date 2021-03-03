@@ -1238,7 +1238,10 @@ function(
 
             if (this.editorSymbolChooser.type != "text") {
                 var geom = this._editorConfig["graphicCurrent"].geometry;
-                this.addMeasure(geom, this._editorConfig["graphicCurrent"]);
+                //this.addMeasure(geom, this._editorConfig["graphicCurrent"]);
+                if(this.showMeasure.checked){
+                    this.addMeasure(geom, this._editorConfig["graphicCurrent"]);
+                }
             }
 
             this.setMode("list");
