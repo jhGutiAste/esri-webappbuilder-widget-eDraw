@@ -595,8 +595,8 @@ function(
             if (!symbol)
                 return;
             //Set this symbol in symbol chooser
-            this.editorSymbolChooser.showBySymbol(symbol);
             this.editorSymbolChooser.showByType(this.editorSymbolChooser.type);
+            this.editorSymbolChooser.showBySymbol(symbol);
             this._editorConfig['symboltype'] = this.editorSymbolChooser.type;
             var type = symbol.type;
             //Draw plus and specific comportment when line symbol.
