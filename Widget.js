@@ -651,6 +651,13 @@ function(
                 //Hide draw plus
                 this.editorSymbolTextPlusNode.style.display = 'none';
             }
+            //Draw plus and specific comportment when poligon symbol.
+            if (type == "simplefillsymbol") {
+                if (this._editorConfig["graphicSaved"] && this._editorConfig["graphicCurrent"]) {
+                    var g = new Graphic(this._editorConfig["graphicSaved"]);
+                    this._editorConfig["graphicCurrent"].setSymbol(g.symbol);
+                }
+            }
         },
         editorActivateSnapping: function(bool) {
             //If disable
