@@ -656,6 +656,10 @@ function(
                 if (this._editorConfig["graphicSaved"] && this._editorConfig["graphicCurrent"]) {
                     var g = new Graphic(this._editorConfig["graphicSaved"]);
                     this._editorConfig["graphicCurrent"].setSymbol(g.symbol);
+                    this.editorSymbolChooser.fillOutlineWidth.setValue(symbol.outline.width)
+                    this.editorSymbolChooser.fillOutlineColor.setColor(symbol.outline.color)
+                    this.editorSymbolChooser.fillAlpha.setAlpha(symbol.color.a)
+                    this.editorSymbolChooser.fillColor.setColor(symbol.color)
                 }
             }
         },
